@@ -1,0 +1,829 @@
+/* Start Colors */
+
+:root {
+    --colorZero_CL: #FFF;
+    --colorOne_CL: #FFD600;
+    --colorTwo_CL: #2F2F2F;
+    --colorThree_CL: #F5F6FB;
+    --colorFive_CL: #818282;
+    --colorSex_CL: #f5f6fb;
+    --colorSeven_cl: #e6e6e6;
+    --colorEight_cl: #B6B6B6;
+    --colorNine_CL: #414141;
+    --colorTen_CL: #f2f2f2;
+    --colorEleven_CL: #F5F5F6;
+    --colorTwelve_BG: #5fdba7;
+    --colorThirteen_BG: #FF4040;
+    --colorFourteen_BG: #4BB543;
+}
+
+
+/* End Colors */
+
+
+/* Start Background */
+
+:root {
+    --backgroundZero_BG: #FFF;
+    --backgroundOne_BG: #FFD600;
+    --backgroundTwo_BG: #2F2F2F;
+    --backgroundThree_BG: #F5F6FB;
+    --backgroundFive_BG: #818282;
+    --backgroundSix_BG: #f5f6fb;
+    --backgroundSeven_BG: #e6e6e6;
+    --backgroundEight_BG: #B6B6B6;
+    --backgroundNine_BG: #414141;
+    --backgroundTen_BG: #f2f2f2;
+    --backgroundEleven_BG: #F5F5F6;
+    --backgroundTwelve_BG: #5fdba7;
+    --backgroundThirteen_BG: #FF4040;
+    --backgroundFourteen_BG: #4BB543;
+}
+
+
+/* End Background */
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="time"],
+textarea,
+input,
+select {
+    background-color: var(--backgroundEleven_BG);
+    color: var(--colorTwo_CL);
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input:focus,
+textarea:focus,
+select:focus {
+    background-color: var(--backgroundEleven_BG);
+}
+
+input[type="text"]::placeholder,
+input[type="number"]::placeholder,
+input[type="date"]::placeholder,
+input[type="password"]::placeholder,
+input[type="email"]::placeholder,
+input[type="tel"]::placeholder,
+input::placeholder,
+select::placeholder,
+textarea::placeholder {
+    color: var(--colorFive_CL);
+}
+
+.text_primary {
+    color: var(--colorOne_CL) !important;
+}
+
+.back_primary {
+    background-color: var(--colorOne_CL) !important;
+}
+
+.text_secondary {
+    color: var(--colorTwo_CL) !important;
+}
+
+.back_secondary {
+    background-color: var(--backgroundTwo_BG) !important;
+}
+
+body {
+    background-color: var(--backgroundZero_BG);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--backgroundOne_BG);
+}
+
+.button_input button {
+    background-color: var(--backgroundOne_BG);
+    color: var(--colorThree_CL);
+}
+
+.input_group label {
+    color: var(--colorTwo_CL);
+}
+
+.shortHeader .copyRight p {
+    color: var(--colorFive_CL);
+}
+
+.header {
+    background-color: var(--backgroundZero_BG);
+}
+
+.header .main-nav-container .main-nav .menu_item .menu_item_link {
+    color: var(--colorTwo_CL);
+}
+
+.header .main-nav-container .main-nav .menu_item:hover .menu_item_link {
+    background-color: var(--backgroundOne_BG);
+}
+
+.header .main-nav-container .main-nav .menu_item.loginMenu:hover .menu_item_link {
+    background-color: var(--backgroundOne_BG);
+}
+
+.btn1 .icon-left,
+.btn1 .icon-right,
+.btn1 .icon-left:before,
+.btn1 .icon-right:before,
+.btn1 .icon-right:after,
+.btn1 .icon-left:after {
+    background-color: var(--backgroundOne_BG);
+}
+
+@media (max-width:992px) {
+    .containerHeader .main-nav-container {
+        background-color: var(--backgroundZero_BG);
+    }
+    .containerHeader .main-nav {
+        background-color: var(--backgroundOne_BG);
+    }
+    .containerHeader .main-nav-container .main-nav .menu_item:hover .menu_item_link {
+        color: var(--colorZero_CL);
+        background-color: var(--backgroundTwo_BG);
+    }
+    .header .main-nav-container .main-nav .menu_item.loginMenu:hover .menu_item_link {
+        color: var(--colorZero_CL);
+        background-color: var(--backgroundTwo_BG);
+    }
+    .containerHeader .main-nav .menu_item .actColor {
+        color: var(--colorZero_CL) !important;
+        background-color: var(--backgroundTwo_BG);
+    }
+    .containerHeader .main-nav-container .main-nav .menu_item .menu_item_link {
+        color: var(--colorTwo_CL);
+        border-bottom-color: var(--backgroundTwo_BG);
+    }
+}
+
+
+/* .swiper-slide {
+    background-color: var(--backgroundZero_BG);
+} */
+
+.screen_slider {
+    background-color: var(--backgroundSix_BG);
+}
+
+.screen_slider .swiper-slide {
+    background-color: var(--backgroundTwo_BG);
+}
+
+.screen_slider .bodydicr {
+    color: var(--colorZero_CL);
+}
+
+.screen_slider .headdicr {
+    color: var(--colorZero_CL);
+}
+
+.screen_slider .bottomdicr {
+    color: var(--colorZero_CL);
+}
+
+.screen_slider .screen-slider-info .btnSlider {
+    background-color: var(--backgroundOne_BG);
+}
+
+.screen_slider .screen-slider-info .button_gruop_slider .btnSlider.sell {
+    border-color: var(--colorZero_CL);
+    color: var(--colorZero_CL);
+}
+
+.screen_slider .swiper-pagination-bullet {
+    background-color: var(--backgroundNine_BG);
+}
+
+.screen_slider .swiper-pagination-bullet-active {
+    background-color: var(--backgroundZero_BG);
+}
+
+.tapsSlider .taps_swiper_container {
+    background-color: var(--backgroundZero_BG);
+}
+
+.tapsSlider .taps_swiper_container .conatiner_tapsBox p {
+    color: var(--colorZero_CL);
+}
+
+.tapsSlider .taps_swiper_container .swiper-slide {
+    background-color: var(--backgroundTwo_BG);
+}
+
+.tapsSlider .taps_swiper_container .swiper-slide:hover {
+    background-color: var(--backgroundOne_BG);
+}
+
+.tapsSlider .taps_swiper_container .swiper-slide:hover .conatiner_tapsBox p {
+    color: var(--colorTwo_CL);
+}
+
+.tapsSlider .taps_swiper_container .swiper-button-next,
+.tapsSlider .taps_swiper_container .swiper-button-prev {
+    background-color: var(--backgroundZero_BG);
+    border-color: var(--colorTwo_CL);
+}
+
+.containerCategory .findType,
+.containerCategory .chooesType {
+    background-color: var(--backgroundZero_BG);
+}
+
+.chooesType .input_group input {
+    background-color: var(--backgroundSeven_BG);
+    color: var(--colorTwo_CL);
+    border: none;
+}
+
+.chooesType .input_group input::placeholder {
+    color: var(--colorFive_CL);
+}
+
+.chooesType .input_group input:focus {
+    background-color: var(--backgroundSeven_BG);
+    color: var(--colorTwo_CL);
+}
+
+.containerCategory .buttonmgroup button {
+    background-color: var(--backgroundTwo_BG);
+    color: var(--colorZero_CL);
+}
+
+button.activeBtnType p {
+    color: var(--colorTwo_CL) !important;
+}
+
+.searchButton button {
+    background-color: var(--backgroundOne_BG);
+    color: var(--colorZero_CL);
+}
+
+.typeCars button {
+    background-color: var(--backgroundTwo_BG);
+}
+
+.typeCars button p {
+    color: var(--colorZero_CL);
+}
+
+.containerCategory .buttonmgroup button:hover,
+button.activeBtnType {
+    background-color: var(--backgroundOne_BG);
+    color: var(--colorTwo_CL);
+}
+
+.typeCars button:hover,
+.typeCars button:hover p {
+    background-color: var(--backgroundOne_BG);
+    color: var(--colorTwo_CL);
+}
+
+.Makesproduct {
+    background-color: var(--backgroundZero_BG);
+}
+
+.Makesproduct .titleBrand {
+    color: var(--colorTwo_CL);
+}
+
+.Makesproduct span {
+    color: var(--colorEight_cl);
+}
+
+.login_register_Container .loginSection .textForget a {
+    color: var(--colorOne_CL);
+}
+
+.login_register_Container .loginSection .termsLogin_register p span {
+    color: var(--colorOne_CL);
+}
+
+.login_register_Container .loginSection .termsLogin_register p a {
+    color: var(--colorOne_CL);
+    text-decoration: none;
+}
+
+.login_register_Container .loginSection .buttonLogin_register button {
+    background-color: var(--backgroundOne_BG);
+    color: var(--colorZero_CL);
+}
+
+.login_register_Container .loginSection .registerList li::marker {
+    color: var(--colorOne_CL);
+}
+
+.login_register_Container .re_de span {
+    color: var(--colorOne_CL);
+}
+
+.login_register_Container .re_de a {
+    color: var(--colorOne_CL);
+    text-decoration: none;
+}
+
+.advertisementSection .login_info h2 {
+    color: var(--colorZero_CL);
+}
+
+.advertisementSection .login_info p {
+    color: var(--colorZero_CL);
+}
+
+.popUp .body .containerpop {
+    background-color: var(--backgroundZero_BG);
+}
+
+.main_tap {
+    border-bottom-color: var(--colorThree_CL);
+}
+
+.main_tap .tap_item {
+    color: var(--colorFive_CL)
+}
+
+.main_tap .tap_item_active {
+    border-bottom-color: var(--colorOne_CL);
+    color: var(--colorTwo_CL);
+}
+
+.form_control {
+    color: var(--colorTwo_CL);
+}
+
+.range_container input[type=range]::-webkit-slider-thumb {
+    background-color: var(--backgroundOne_BG);
+}
+
+.range_container input[type=range]::-moz-range-thumb {
+    background-color: var(--backgroundOne_BG);
+}
+
+.range_container input[type=range]::-webkit-slider-thumb:hover {
+    background-color: var(--backgroundTwo_BG);
+}
+
+.range_container input[type="number"] {
+    color: var(--colorTwo_CL);
+}
+
+.range_container input[type="range"] {
+    background-color: var(--backgroundSeven_BG);
+}
+
+.closePopup a {
+    background-color: var(--backgroundZero_BG);
+}
+
+.footer .flexFooter {
+    border-color: var(--colorSeven_cl);
+}
+
+.footer .flexFooter .ourApp p {
+    color: var(--colorFive_CL);
+}
+
+.footer .flexFooter .listfooterCa .contFooter .itemFooter {
+    color: var(--colorTwo_CL);
+}
+
+.copyRight p {
+    color: var(--colorTwo_CL);
+}
+
+.steps {
+    background-color: var(--backgroundZero_BG);
+}
+
+.steps .step_one {
+    border-color: var(--colorOne_CL);
+    background-color: var(--backgroundZero_BG);
+}
+
+.steps .step_one:before {
+    background-color: var(--backgroundZero_BG);
+    border-color: var(--colorOne_CL);
+}
+
+.steps .step_line {
+    background-color: var(--backgroundOne_BG);
+}
+
+.steps .step_one.step_active {
+    background-color: var(--backgroundOne_BG);
+    color: var(--colorZero_CL) !important;
+}
+
+.steps .step_one.step_active .titleStep p {
+    color: var(--colorTwo_CL);
+}
+
+.steps .step_one.step_active:before {
+    background-color: var(--backgroundOne_BG);
+}
+
+.titleBoxSell h2 {
+    color: var(--colorOne_CL);
+}
+
+.titleBoxSell p {
+    color: var(--colorTwo_CL);
+}
+
+.steps .step_one .titleStep p {
+    color: var(--colorEight_cl);
+}
+
+
+/* .boxSell {
+    background-color: var(--backgroundZero_BG);
+} */
+
+.mainPhoto {
+    border-color: var(--colorOne_CL);
+    background-color: var(--backgroundThree_BG);
+}
+
+.container_photoUpload .photoUpload {
+    background-color: var(--backgroundThree_BG);
+    border-color: var(--colorOne_CL);
+}
+
+.containerSell {
+    background-color: var(--backgroundZero_BG);
+    border-color: var(--colorSex_CL);
+}
+
+.pagesContainer>h2 {
+    color: var(--colorOne_CL);
+}
+
+.Pages button {
+    background-color: var(--backgroundOne_BG);
+    color: var(--colorZero_CL);
+}
+
+.priceSKip {
+    background-color: var(--backgroundZero_BG);
+}
+
+.priceSKip .webPrice h3 {
+    color: var(--colorOne_CL);
+}
+
+.priceSKip .buttonGroup button {
+    background-color: var(--backgroundOne_BG);
+    color: var(--colorZero_CL);
+}
+
+.priceSKip .buttonGroup .skip {
+    border-color: var(--colorOne_CL);
+    color: var(--colorOne_CL);
+}
+
+.containerSelectPage .firstOption .selectOption {
+    background-color: var(--backgroundSeven_BG);
+}
+
+.containerSelectPage button {
+    background-color: var(--backgroundTwo_BG);
+    color: var(--colorZero_CL);
+}
+
+.containerSelectPage button:hover {
+    background-color: var(--backgroundOne_BG);
+    color: var(--colorTwo_CL);
+}
+
+.Page_contains .adPrice button {
+    background-color: var(--backgroundOne_BG);
+    color: var(--colorZero_CL);
+}
+
+.container_addImages .containerUpload .photoUpload {
+    background-color: var(--backgroundThree_BG);
+    border-color: var(--colorOne_CL);
+}
+
+.container_addImages .containerUpload .photoUpload p {
+    color: var(--colorFive_CL);
+}
+
+.detailsProductContent .product_c_right .types .price_product {
+    color: var(--colorOne_CL);
+}
+
+.detailsProductContent .product_D_right .info_car .headDelRe {
+    background-color: var(--backgroundTwo_BG);
+    color: var(--colorZero_CL);
+}
+
+.detailsProductContent .product_D_right .info_car .bodyInfo .contentDelRe {
+    background-color: var(--backgroundTen_BG);
+}
+
+.line_inputs {
+    background-color: var(--backgroundThree_BG);
+}
+
+.mainPhoto p {
+    color: var(--colorFive_CL);
+}
+
+.container_photoUpload .photoUpload p {
+    color: var(--colorFive_CL);
+}
+
+.order_table table {
+    border-color: var(--colorTen_CL);
+}
+
+.order_table table thead {
+    background-color: var(--backgroundTen_BG);
+}
+
+.order_table table thead tr th {
+    border-color: var(--colorTen_CL);
+}
+
+.order_table table tbody tr td {
+    border-color: var(--colorTen_CL);
+}
+
+.order_table table tfoot tr th {
+    border-color: var(--colorTen_CL);
+}
+
+.order_table table tfoot tr td {
+    border-color: var(--colorTen_CL);
+}
+
+.detailsProductImage .swiper-pagination-bullet {
+    background-color: var(--backgroundNine_BG);
+}
+
+.detailsProductImage .swiper-pagination-bullet-active {
+    background-color: var(--backgroundZero_BG);
+}
+
+.confirmCar.buttonGroup button {
+    background-color: var(--backgroundOne_BG);
+    color: var(--colorZero_CL);
+}
+
+.confirmCar.buttonGroup .skip {
+    border-color: var(--colorOne_CL);
+    color: var(--colorOne_CL);
+}
+
+.buttonPay button {
+    background-color: var(--backgroundOne_BG);
+    color: var(--colorZero_CL);
+}
+
+.car_information .buttonGroup button {
+    background-color: var(--backgroundOne_BG);
+    color: var(--colorZero_CL);
+}
+
+.select_warpper .select {
+    border-color: var(--backgroundEleven_BG);
+    background-color: var(--backgroundEleven_BG);
+    color: var(--colorTwo_CL);
+}
+
+.select_warpper .options {
+    background-color: var(--backgroundEleven_BG);
+    border-color: var(--backgroundEleven_BG);
+}
+
+.order_table table {
+    box-shadow: 0 0rem 0.2rem #ffd600;
+}
+
+.popup_container {
+    background-color: var(--backgroundZero_BG);
+}
+
+.popup_container .popup_header h3 {
+    color: var(--colorOne_CL);
+}
+
+.popup_container .popup_footer .button_group button.changePhot {
+    border-color: var(--colorOne_CL);
+    color: var(--colorOne_CL);
+    background-color: var(--backgroundZero_BG);
+}
+
+.popup_container .popup_footer .button_group button.savePhot {
+    color: var(--colorZero_CL);
+    background-color: var(--backgroundOne_BG);
+}
+
+.newPaper_PageContainer .item_newpaper .head_newpaper {
+    background-color: var(--backgroundOne_BG);
+}
+
+.newPaper_PageContainer .item_newpaper .body_newpaper {
+    background-color: var(--backgroundSeven_BG);
+}
+
+.newPaper_PageContainer .item_newpaper .footer_newpaper {
+    background-color: var(--backgroundOne_BG);
+}
+
+.login_register_Container .advertisementSection {
+    background-color: var(--backgroundTwo_BG);
+}
+
+.succesPage .succes_Container .succes_Section .titleSuccess h1 {
+    color: var(--colorFourteen_BG);
+}
+
+.succesPage .succes_Container .succes_Section .button_group button {
+    background-color: var(--backgroundOne_BG);
+    color: var(--colorZero_CL);
+}
+
+.myAccount .containerProfile .photo_name:before {
+    background-color: var(--backgroundTen_BG);
+}
+
+.editPorfile {
+    background-color: var(--backgroundOne_BG);
+}
+
+.data_box {
+    background-color: var(--backgroundZero_BG);
+    border-color: var(--colorThree_CL);
+}
+
+.data_box_icon {
+    background-color: var(--backgroundOne_BG);
+    border-color: var(--colorZero_CL);
+}
+
+.data_box .box_item .data_box_text p {
+    color: var(--colorTwo_CL);
+}
+
+.data_box .box_item .data_box_text span {
+    color: var(--colorNine_CL);
+}
+
+.containerDetails {
+    background-color: var(--backgroundZero_BG);
+}
+
+.containerContect .container_title .veiw_edit .totalveiw {
+    color: var(--colorEight_cl);
+}
+
+.containerContect .container_title .title_price .price {
+    color: var(--colorOne_CL);
+}
+
+.containerDetails .containerContect .container_component .component_car p {
+    color: var(--colorFive_CL);
+}
+
+.containerDetails .containerContect .containerStatus_de .container_status_icon .status_icon p {
+    color: var(--colorTwelve_BG);
+}
+
+.containerDetails .containerContect .containerStatus_de .container_status_icon .status_icon p.unpaid,
+.containerDetails .containerContect .containerStatus_de .container_status_icon .status_icon p.draft {
+    color: var(--colorThirteen_BG);
+}
+
+.containerDetails .containerContect .containerStatus_de .container_buttonStatus .buttonStatus {
+    background-color: var(--backgroundOne_BG);
+    color: var(--colorZero_CL);
+}
+
+.containerDetails .containerContect .containerStatus_de .container_buttonStatus .buttonStatus.Approve {
+    background-color: var(--backgroundTwelve_BG);
+    color: var(--colorZero_CL);
+}
+
+.containerDetails .containerContect .containerStatus_de .container_buttonStatus .buttonStatus.Rejected {
+    background-color: var(--backgroundThirteen_BG);
+    color: var(--colorZero_CL);
+}
+
+.containerDetails .delete_ads {
+    background-color: var(--backgroundThirteen_BG);
+}
+
+.empty_Account,
+.empty_favorite,
+.empty_compare {
+    background-color: var(--backgroundZero_BG);
+}
+
+.empty_Account .empty_Account_container .add_ads,
+.adsDetails .subTitle_ADS_DE .add_ads {
+    background-color: var(--backgroundOne_BG);
+    color: var(--colorZero_CL);
+}
+
+.empty_favorite .empty_favorite_container .btn_home,
+.empty_compare .empty_compare_container .btn_home {
+    background-color: var(--backgroundOne_BG);
+    color: var(--colorZero_CL);
+}
+
+.subTitle_ADS_DE .container_search_add .inputsearch a {
+    background-color: var(--backgroundOne_BG);
+}
+
+.deleteAccount .deleteAccount_btn {
+    color: var(--colorOne_CL);
+}
+
+.Page_contains {
+    background-color: var(--backgroundEleven_BG);
+}
+
+.addImages {
+    background-color: var(--backgroundZero_BG);
+    border-color: var(--colorOne_CL);
+}
+
+.container_addImages .iinn .buttonGroup button {
+    background-color: var(--backgroundOne_BG);
+    color: var(--colorZero_CL);
+}
+
+.popup_container .popup_content .contentdata_popup {
+    background-color: var(--backgroundThree_BG);
+    border-color: var(--colorEight_cl);
+}
+
+.popup_container .popup_content .hintSize {
+    color: var(--colorFive_CL);
+}
+
+.containerSearch .Detailed_search .clearData_title {
+    background-color: var(--backgroundZero_BG);
+    border-color: var(--colorSeven_cl);
+}
+
+.containerSearch .Detailed_search .wagonType_Search {
+    background-color: var(--backgroundZero_BG);
+    border-color: var(--colorSeven_cl);
+}
+
+.containerSearch .Detailed_search .wagonType_Search .type_machine .type_machine_sBox {
+    background-color: var(--backgroundTwo_BG);
+}
+
+.containerSearch .Detailed_search .wagonType_Search .type_machine .type_machine_sBox p {
+    color: var(--colorZero_CL);
+}
+
+.containerSearch .Detailed_search .wagonType_Search .btn_input .buttongroupSearch button {
+    background-color: var(--backgroundTwo_BG);
+    color: var(--colorZero_CL);
+}
+
+.containerSearch .Detailed_search .searchBtnresult button {
+    background-color: var(--backgroundOne_BG);
+    color: var(--colorZero_CL);
+}
+
+.containerSearch .Detailed_search .wagonType_Search .type_machine .type_machine_sBox:hover,
+.containerSearch .Detailed_search .wagonType_Search .btn_input .buttongroupSearch button:hover {
+    background-color: var(--backgroundOne_BG);
+    transition: 0.2s ease-in-out;
+    color: var(--colorTwo_CL);
+}
+
+.containerSearch .Detailed_search .wagonType_Search .type_machine .type_machine_sBox:hover p {
+    color: var(--colorTwo_CL);
+    transition: 0.2s ease-in-out;
+}
+
+.wagonType_Search .type_machine .type_machine_sBox.activeSearch {
+    background-color: var(--backgroundOne_BG) !important;
+}
+
+.wagonType_Search .type_machine .type_machine_sBox.activeSearch p {
+    color: var(--colorTwo_CL) !important;
+}
+
+.wagonType_Search .type_machine .type_machine_sBox.activeSearch img {
+    filter: brightness(0) invert(0);
+    transition: 0.2s ease-in-out;
+}

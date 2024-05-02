@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51">
+  <g id="mobile_icon" transform="translate(0 -0.115)">
+    <rect id="Rectangle_1958" data-name="Rectangle 1958" width="51" height="51" transform="translate(0 0.115)" fill="none"/>
+    <g id="svgexport-16_1_" data-name="svgexport-16 (1)" transform="translate(5.733 2.146)">
+      <g id="Group_1523" data-name="Group 1523" transform="translate(5.5 1.5)">
+        <path id="Path_1403" data-name="Path 1403" d="M5.5,6.837A5.337,5.337,0,0,1,10.837,1.5H27.915a5.337,5.337,0,0,1,5.337,5.337V40.993a5.337,5.337,0,0,1-5.337,5.337H10.837A5.337,5.337,0,0,1,5.5,40.993Zm5.337-3.2a3.2,3.2,0,0,0-3.2,3.2V40.993a3.2,3.2,0,0,0,3.2,3.2H27.915a3.2,3.2,0,0,0,3.2-3.2V6.837a3.2,3.2,0,0,0-3.2-3.2Z" transform="translate(-5.5 -1.5)" fill="#ffd600" fill-rule="evenodd"/>
+        <path id="Path_1404" data-name="Path 1404" d="M8.5,2.567A1.067,1.067,0,0,1,9.567,1.5H22.376a1.067,1.067,0,0,1,1.067,1.067V4.7a3.2,3.2,0,0,1-3.2,3.2H11.7A3.2,3.2,0,0,1,8.5,4.7Zm2.135,1.067V4.7A1.067,1.067,0,0,0,11.7,5.769h8.539A1.067,1.067,0,0,0,21.308,4.7V3.635Z" transform="translate(-2.096 -1.5)" fill="#ffd600" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

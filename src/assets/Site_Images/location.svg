@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="Group_1167" data-name="Group 1167" transform="translate(-1006 -1110)">
+    <rect id="Rectangle_1892" data-name="Rectangle 1892" width="22" height="22" transform="translate(1006 1110)" fill="none"/>
+    <g id="pin_icon" data-name="pin icon" transform="translate(930.747 1111.86)">
+      <path id="Path_1212" data-name="Path 1212" d="M91.664,3.13A6.2,6.2,0,0,0,86.393,0c-.094,0-.188,0-.281,0A6.2,6.2,0,0,0,80.841,3.13a6.364,6.364,0,0,0-.083,6.288l4.533,8.3.006.011a1.1,1.1,0,0,0,1.911,0l.006-.011,4.533-8.3a6.364,6.364,0,0,0-.083-6.288ZM86.253,8.283a2.571,2.571,0,1,1,2.571-2.571A2.574,2.574,0,0,1,86.253,8.283Z" fill="#ffd600"/>
+    </g>
+  </g>
+</svg>
